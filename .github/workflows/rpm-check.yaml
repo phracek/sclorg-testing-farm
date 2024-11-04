@@ -13,7 +13,6 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        os: ["fedora", "gpu-fedora", "c9s", "c10s"]
         include:
           - os: "fedora"
             context: "Fedora"
